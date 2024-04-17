@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLayer", "AT_with_.NET_Web_Service_API_TA_Tools\TestLayer.csproj", "{406B23B4-E74D-420F-941C-4DEA34BE3910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLayer", "AT_with_.NET_Web_Service_API_TA_Tools\TestLayer.csproj", "{406B23B4-E74D-420F-941C-4DEA34BE3910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{92FCF92B-775A-4B3B-8681-8BBE95A1116E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{92FCF92B-775A-4B3B-8681-8BBE95A1116E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{5DB567CC-A24C-47E1-A002-96337E6CCF8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{5DB567CC-A24C-47E1-A002-96337E6CCF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestAutomationFramworkVersion2", "TestAutomationFramworkVersion2", "{071DCB4D-4F2A-4519-A63A-5C2765617242}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "..\..\SeleniumWebDriverTask\TestAutomationFrameworkVersion2\TestAutomationFramworkVersion2\Business\Business.csproj", "{26A09D37-6C87-44B8-8862-DDA322562066}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\..\SeleniumWebDriverTask\TestAutomationFrameworkVersion2\TestAutomationFramworkVersion2\Core\Core.csproj", "{140D0493-B25A-4C15-A365-A395B36115E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLeyer", "..\..\SeleniumWebDriverTask\TestAutomationFrameworkVersion2\TestAutomationFramworkVersion2\TestLeyer\TestLeyer.csproj", "{CFBA5D48-83D3-4D40-83FE-8C1236786E3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +35,26 @@ Global
 		{5DB567CC-A24C-47E1-A002-96337E6CCF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB567CC-A24C-47E1-A002-96337E6CCF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB567CC-A24C-47E1-A002-96337E6CCF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A09D37-6C87-44B8-8862-DDA322562066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A09D37-6C87-44B8-8862-DDA322562066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A09D37-6C87-44B8-8862-DDA322562066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A09D37-6C87-44B8-8862-DDA322562066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140D0493-B25A-4C15-A365-A395B36115E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140D0493-B25A-4C15-A365-A395B36115E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140D0493-B25A-4C15-A365-A395B36115E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140D0493-B25A-4C15-A365-A395B36115E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBA5D48-83D3-4D40-83FE-8C1236786E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBA5D48-83D3-4D40-83FE-8C1236786E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBA5D48-83D3-4D40-83FE-8C1236786E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBA5D48-83D3-4D40-83FE-8C1236786E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26A09D37-6C87-44B8-8862-DDA322562066} = {071DCB4D-4F2A-4519-A63A-5C2765617242}
+		{140D0493-B25A-4C15-A365-A395B36115E8} = {071DCB4D-4F2A-4519-A63A-5C2765617242}
+		{CFBA5D48-83D3-4D40-83FE-8C1236786E3B} = {071DCB4D-4F2A-4519-A63A-5C2765617242}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDD9ED92-389A-412E-A40D-59B3ED2A6308}
