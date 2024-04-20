@@ -2,7 +2,7 @@
 using RestSharp;
 using static Core.ConfigurationManager;
 
-namespace Core
+namespace Core 
 {
     public class ApiClient
     {
