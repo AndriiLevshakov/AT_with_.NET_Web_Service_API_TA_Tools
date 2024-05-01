@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Business\Business_API.csproj" />
+    <ProjectReference Include="..\Core\Core_API.csproj" />
   </ItemGroup>
 
   <ItemGroup>
